@@ -14,11 +14,9 @@ body {
 }
 
 .container {
-  display: flex;
   font-family: Raleway;
   font-weight: bold;
-  flex-direction: column;
-}
+  }
 
 .link {
   font-family: Raleway;
