@@ -14,9 +14,10 @@ body {
 }
 
 .container {
+  display: flex;
   font-family: Raleway;
-  font-weight: bold;
-  }
+  font-size: 11px;
+}
 
 .link {
   font-family: Raleway;
@@ -32,8 +33,12 @@ body {
   color: #C79957;
 }
 
-.left, .center, .right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.left {
+  text-align: left;
+  justify-content: left;
+}
+
+.right {
+  text-align: right;
+  justify-content: right;
 }
