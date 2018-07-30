@@ -5,7 +5,7 @@ body {
 
 .header {
   background-color: #006325;
-  border-bottom: 3px solid #C79957;
+  border-bottom: 4px solid #C79957;
   position: absolute;
   position: fixed;
   width: 100%;
@@ -18,5 +18,9 @@ body {
   color: white;
   font-weight: bold;
   display: inline-block;
-  padding: 20px;
+  padding: 15px;
+}
+
+.link:hover {
+  color: #C79957;
 }
