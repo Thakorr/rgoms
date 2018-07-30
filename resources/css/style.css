@@ -13,10 +13,11 @@ body {
   text-align: center;
 }
 
-.preheader {
-  display: inline;
+.container {
+  display: flex;
   font-family: Raleway;
-  text-align: center;
+  font-weight: bold;
+  flex-direction: column;
 }
 
 .link {
@@ -31,4 +32,10 @@ body {
 
 .link:hover {
   color: #C79957;
+}
+
+.left, .center, .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
