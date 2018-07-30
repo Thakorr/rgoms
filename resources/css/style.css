@@ -6,9 +6,16 @@ body {
 .header {
   background-color: #006325;
   border-bottom: 4px solid #C79957;
+  border-top: 4px solid #C79957;
   position: absolute;
   position: fixed;
   width: 100%;
+  text-align: center;
+}
+
+.preheader {
+  display: inline;
+  font-family: Raleway;
   text-align: center;
 }
 
@@ -23,4 +30,8 @@ body {
 
 .link:hover {
   color: #C79957;
+}
+
+.logo {
+  text-align: center;
 }
