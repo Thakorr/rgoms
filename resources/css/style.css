@@ -4,8 +4,8 @@ body {
 }
 
 .header {
-  background-color: darkgreen;
-  border-bottom: 2px solid red;
+  background-color: #006325;
+  border-bottom: 3px solid #C79957;
   position: absolute;
   position: fixed;
   width: 100%;
