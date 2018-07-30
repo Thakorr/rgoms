@@ -36,8 +36,14 @@ body {
 .left {
   text-align: left;
   justify-content: left;
+  padding-left: 180px;
 }
 
+.center {
+  padding-left: 450px;
+  padding-right: 450px;
+  padding-top: 20px;
+}
 .right {
   text-align: right;
   justify-content: right;
