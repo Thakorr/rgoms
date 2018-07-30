@@ -1,0 +1,21 @@
+body {
+  margin: 0 auto;
+  background-color: #FFF;
+}
+
+.header {
+  background-color: darkgreen;
+  border-bottom: 2px solid red;
+  position: absolute;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.link {
+  font-family: Raleway;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+}
