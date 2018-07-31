@@ -41,7 +41,3 @@ body {
   padding: 3px;
   font-weight: bold;
 }
-
-.navigation a:hover {
-  background: darken(darkgreen, 10%)
-}
