@@ -7,12 +7,12 @@ body {
   display: flex;
   font-family: Raleway;
   font-size: 11px;
+  justify-content: space-evenly;
 }
 
 .left {
   text-align: left;
   justify-content: left;
-  padding-left: 180px;
 }
 
 .right {
@@ -20,10 +20,28 @@ body {
   justify-content: right;
 }
 
+.center {
+  padding-top: 20px;
+}
+
 .navigation {
   list-style: none;
   margin: 0;
-  background-color: #006325;
+  background-color: darkgreen;
   display: flex;
+  justify-content: space-around;
   border-bottom: 4px solid #C79957;
+}
+
+.navigation a {
+  font-family: Raleway;
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 3px;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  background: darken(darkgreen, 10%)
 }
