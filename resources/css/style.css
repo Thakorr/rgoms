@@ -3,34 +3,10 @@ body {
   background-color: #FFF;
 }
 
-.header {
-  background-color: #006325;
-  border-bottom: 4px solid #C79957;
-  border-top: 4px solid #C79957;
-  position: absolute;
-  position: fixed;
-  width: 100%;
-  text-align: center;
-}
-
 .container {
   display: flex;
   font-family: Raleway;
   font-size: 11px;
-}
-
-.link {
-  font-family: Raleway;
-  font-size: 25px;
-  color: white;
-  font-weight: bold;
-  display: inline-block;
-  padding: 15px;
-  text-decoration: none;
-}
-
-.link:hover {
-  color: #C79957;
 }
 
 .left {
@@ -42,4 +18,12 @@ body {
 .right {
   text-align: right;
   justify-content: right;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  background-color: #006325;
+  display: flex;
+  border-bottom: 4px solid #C79957;
 }
